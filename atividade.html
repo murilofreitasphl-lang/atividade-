@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+<body>
+    <h1>Cadrasto para o campeonato de FIFA</h1>
+    <form> 
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email..." required>
+        
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha..." required >
+         
+        <label for="date">Data de nascimento: </label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="cidade">Cidade: </label>
+        <select name="cidade" id="cidade" required>
+
+            <option>Selecione sua cidade</option>
+            <option>Londrina</option>
+            <option>Curitiba</option>
+            <option>Assaí</option>
+            <option>Cambé</option>
+            <option>Rolândia</option>
+            <option>Maringá</option>
+            <option>Apucarana</option>
+            <option>Ibaiti</option>
+        </select>
+
+        <label for="historico">Você tem um console para jogar?
+        </label>
+        <input type="radio" name=" historico" required>
+        Sim
+        
+        <label for="historico"></label>
+        <input type="radio" name="historico">
+        Não 
+
+         <label>
+             <input type="checkbox" name="opções">
+             Aceito os termos
+         </label>
+
+        <label>
+
+         observação
+        <label>
+
+            <textarea rows="4"></textarea>
+
+            <button type="submit">
+                Cadastrar
+            </button>
+    </form>
+    
+    
+</body>
+</html>
